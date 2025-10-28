@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/Images/logo.jpeg"
+      style="border-radius: 50%"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>The Jean's Show</title>
+  </head>
+  <body class="bg-[#171625]">
+    <header class="h-14 w-full bg-[#262A65] sticky">
+      <nav
+        class="flex items-center justify-around w-full h-14 p-1 sticky top-0 text-white"
+      >
+        <div class="font-bold text-2xl cursor-pointer">
+          <a href="index.html">Jean-claude Nkongolo</a>
+        </div>
+        <ul class="list-none flex gap-3">
+          <li class="font-semibold cursor-pointer relative group">
+            <span class="">ABOUT</span>
+            <span
+              class="absolute w-0 h-1 bg-[#B1A9FF] bottom-0 left-0 group-hover:w-full transition-all duration-300"
+            ></span>
+          </li>
+
+          <li class="font-semibold cursor-pointer relative group">
+            <span class="">SKILLS</span>
+            <span
+              class="absolute w-0 h-1 bg-[#B1A9FF] bottom-0 left-0 group-hover:w-full transition-all duration-300"
+            ></span>
+          </li>
+
+          <li class="font-semibold cursor-pointer relative group">
+            <span>PROJECT</span>
+            <span
+              class="absolute w-0 h-1 bg-[#B1A9FF] bottom-0 left-0 group-hover:w-full transition-all duration-300"
+            ></span>
+          </li>
+
+          <li class="font-semibold cursor-pointer relative group">
+            <span>CONTACT</span>
+            <span
+              class="absolute w-0 h-1 bg-[#B1A9FF] bottom-0 left-0 group-hover:w-full transition-all duration-300"
+            ></span>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="w-full text-white">
+      <section class="grid grid-cols-2 items-center w-full h-screen px-5">
+        <article class="space-y-2">
+          <h1 class="font-bold text-6xl">Jean-claude Nkongolo</h1>
+          <p>
+            Junior Web developer,
+            <span class="text-[#5B5BD6]"
+              >I help people create things on internet.</span
+            >
+          </p>
+          <button
+            class="p-2 bg-[#5B5BD6] rounded-lg cursor-pointer hover:bg-white hover:text-[#5B5BD6] transition-all duration-700"
+          >
+            <a href="#">Github</a>
+          </button>
+          <button
+            class="p-1.5 border-2 border-[#202248] text-[#5B5BD6] rounded-lg hover:text-[#303374] hover:bg-white transition-all duration-700"
+          >
+            <a href="#">Instagram</a>
+          </button>
+        </article>
+        <article class="flex justify-center items-center">
+          <img
+            src="assets/Images/me.jpg"
+            alt="Jean-claude"
+            class="max-w-[60%] h-auto rounded-4xl"
+          />
+        </article>
+      </section>
+
+      <section class="my-16">
+        <h1 class="text-5xl font-semibold text-center mb-3">Skills</h1>
+        <div class="flex justify-center gap-2">
+          <img
+            src="assets/icons/html5-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl transition-all duration-200"
+          />
+          <img
+            src="assets/icons/css3-alt-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+          <img
+            src="assets/icons/github-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+          <img
+            src="assets/icons/git-alt-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+          <img
+            src="assets/icons/java-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+          <img
+            src="assets/icons/cuttlefish-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+          <img
+            src="assets/icons/figma-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+          <img
+            src="assets/icons/linux-brands-solid-full.svg"
+            aria-hidden="true"
+            class="w-20 h-20 cursor-pointer hover:bg-white rounded-2xl"
+          />
+        </div>
+      </section>
+
+      <section class="mb-15">
+        <h1 class="text-center text-5xl my-5 font-semibold">My Projects</h1>
+        <section
+          class="grid grid-cols-4 mx-10 gap-6 items-stretch max-lg:grid-cols-2"
+        >
+          <article
+            class="bg-[#202248] p-2.5 rounded-2xl cursor-pointer hover:scale-[1.05] transition-all duration-200"
+          >
+            <div>
+              <img
+                src="assets/Images/cyber-punk.png"
+                alt="cyber punk postcard project preview"
+                class="rounded-lg aspect-video"
+              />
+            </div>
+            <div>
+              <h1 class="text-2xl text-center font-semibold m-1.5">
+                Cyber punk postcard
+              </h1>
+              <p class="leading-normal text-justify">
+                A creative web project where I designed digital postcards with a
+                futuristic cyberpunk theme, showcasing animations, neon colors,
+                and interactive effects to create an immersive experience.
+              </p>
+            </div>
+          </article>
+          <article
+            class="bg-[#202248] p-2.5 rounded-2xl cursor-pointer hover:scale-[1.05] transition-all duration-200"
+          >
+            <div>
+              <img
+                src="assets/Images/recipe-page.png"
+                alt="recipe page project preview"
+                class="rounded-lg aspect-video object-cover"
+              />
+            </div>
+            <div>
+              <h1 class="text-2xl text-center font-semibold m-2">
+                Recipe page
+              </h1>
+              <p class="leading-normal text-justify">
+                A responsive recipe webpage that displays an easy eggs recipes
+                with images, ingredients, and step-by-step instructions.
+                Includes a clean layout and easy navigation for a user-friendly
+                experience.
+              </p>
+            </div>
+          </article>
+          <article
+            class="bg-[#202248] p-2.5 rounded-2xl cursor-pointer hover:scale-[1.05] transition-all duration-200"
+          >
+            <div>
+              <img
+                src="assets/Images/testimonial grid.png"
+                alt="testimonial grid section project preview"
+                class="rounded-lg aspect-video object-cover"
+              />
+            </div>
+            <div>
+              <h1 class="text-2xl text-center font-semibold m-2">
+                Testimonial grid section
+              </h1>
+              <p class="leading-normal text-justify">
+                A web component displaying customer or user testimonials in a
+                visually appealing grid. Highlights feedback with avatars,
+                quotes, and names, enhancing credibility and engagement.
+              </p>
+            </div>
+          </article>
+          <article
+            class="bg-[#202248] p-2.5 rounded-2xl cursor-pointer hover:scale-[1.05] transition-all duration-200"
+          >
+            <div>
+              <img
+                src="assets/Images/youtube.png"
+                alt="Youtube project preview"
+                class="rounded-lg aspect-video object-cover"
+              />
+            </div>
+            <div>
+              <h1 class="text-2xl text-center font-semibold m-2">
+                Youtube clone
+              </h1>
+              <p class="leading-normal text-justify">
+                A simplified YouTube-like interface built with HTML and CSS.
+                Features video thumbnails, titles, and basic navigation to
+                simulate the experience of browsing and watching videos online.
+              </p>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <section class="mt-4 mb-10">
+        <div>
+          <div class="mx-auto max-w-2xl text-center">
+            <h2
+              class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl"
+            >
+              Contact me
+            </h2>
+            <p class="mt-2 text-lg/8 text-gray-400">
+              Contact me if you need my services
+            </p>
+          </div>
+          <form
+            action="#"
+            method="POST"
+            class="mx-auto mt-16 max-w-xl sm:mt-20"
+          >
+            <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+              <div>
+                <label
+                  for="first-name"
+                  class="block text-sm/6 font-semibold text-white"
+                  >First name</label
+                >
+                <div class="mt-2.5">
+                  <input
+                    id="first-name"
+                    type="text"
+                    name="first-name"
+                    autocomplete="given-name"
+                    class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                  />
+                </div>
+              </div>
+              <div>
+                <label
+                  for="last-name"
+                  class="block text-sm/6 font-semibold text-white"
+                  >Last name</label
+                >
+                <div class="mt-2.5">
+                  <input
+                    id="last-name"
+                    type="text"
+                    name="last-name"
+                    autocomplete="family-name"
+                    class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                  />
+                </div>
+              </div>
+
+              <div class="sm:col-span-2">
+                <label
+                  for="email"
+                  class="block text-sm/6 font-semibold text-white"
+                  >Email</label
+                >
+                <div class="mt-2.5">
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                  />
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label
+                  for="phone-number"
+                  class="block text-sm/6 font-semibold text-white"
+                  >Phone number</label
+                >
+                <div class="mt-2.5">
+                  <div
+                    class="flex rounded-md bg-white/5 outline-1 -outline-offset-1 outline-white/10 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-500"
+                  >
+                    <div
+                      class="grid shrink-0 grid-cols-1 focus-within:relative"
+                    >
+                      <select
+                        id="country"
+                        name="country"
+                        autocomplete="country"
+                        aria-label="Country"
+                        class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-gray-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6"
+                      >
+                        <option>DRC</option>
+                        <option>UG</option>
+                        <option>US</option>
+                        <option>EU</option>
+                      </select>
+                      <svg
+                        viewBox="0 0 16 16"
+                        fill="currentColor"
+                        data-slot="icon"
+                        aria-hidden="true"
+                        class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-400 sm:size-4"
+                      >
+                        <path
+                          d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z"
+                          clip-rule="evenodd"
+                          fill-rule="evenodd"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      id="phone-number"
+                      type="text"
+                      name="phone-number"
+                      placeholder="123-456-7890"
+                      class="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-sm/6"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label
+                  for="message"
+                  class="block text-sm/6 font-semibold text-white"
+                  >Message</label
+                >
+                <div class="mt-2.5">
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="mt-10">
+              <button
+                type="submit"
+                class="block w-full rounded-lg bg-[#5B5BD6] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 cursor-pointer"
+              >
+                Let's talk
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section
+        class="h-14 w-full bg-[#262A65] flex justify-evenly items-center text-[#171625] p-3 font-semibold"
+      >
+        <p>&copy; 2025 MyFutureCompany. All rights reserved.</p>
+        <div class="flex gap-2">
+          <img
+            src="assets/icons/github-brands-solid-full (1).svg"
+            aria-hidden="true"
+            class="h-full w-auto"
+          />
+          <img
+            src="assets/icons/x-twitter-brands-solid-full.svg"
+            aria-hidden="true"
+            class="h-full w-auto"
+          />
+          <img
+            src="assets/icons/instagram-brands-solid-full.svg"
+            aria-hidden="true"
+            class="h-full w-auto"
+          />
+          <img
+            src="assets/icons/discord-brands-solid-full.svg"
+            aria-hidden="true"
+            class="h-full w-auto"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
